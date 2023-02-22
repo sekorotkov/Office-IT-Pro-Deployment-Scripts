@@ -1,7 +1,0 @@
-<Configuration>
-    <Add OfficeClientEdition="32" Channel="Deferred">
-        <Product ID="LanguagePack">
-            <Language ID="en-us"/>
-        </Product>
-    </Add>
-</Configuration>
