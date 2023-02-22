@@ -13,7 +13,7 @@ param(
     [string] $TargetFilePath = $NULL,
     
     [Parameter()]
-    [ValidateSet("All","O365ProPlusRetail","O365BusinessRetail","VisioProRetail","ProjectProRetail", "SPDRetail", "VisioProXVolume", "VisioStdXVolume", 
+    [ValidateSet("All","ProPlus2019Volume","O365ProPlusRetail","O365BusinessRetail","VisioProRetail","ProjectProRetail", "SPDRetail", "VisioProXVolume", "VisioStdXVolume", 
                  "ProjectProXVolume", "ProjectStdXVolume", "InfoPathRetail", "SkypeforBusinessEntryRetail", "LyncEntryRetail", "AccessRuntimeRetail")]
     [string[]]$C2RProductsToRemove = "All",
     
@@ -53,7 +53,7 @@ Param(
     [string] $TargetFilePath = $NULL,
 
     [Parameter()]
-    [ValidateSet("All","O365ProPlusRetail","O365BusinessRetail","VisioProRetail","ProjectProRetail", "SPDRetail", "VisioProXVolume", "VisioStdXVolume", 
+    [ValidateSet("All","ProPlus2019Volume","O365ProPlusRetail","O365BusinessRetail","VisioProRetail","ProjectProRetail", "SPDRetail", "VisioProXVolume", "VisioStdXVolume", 
                  "ProjectProXVolume", "ProjectStdXVolume", "InfoPathRetail", "SkypeforBusinessEntryRetail", "LyncEntryRetail", "AccessRuntimeRetail")]
     [string[]]$C2RProductsToRemove = "All",
 
